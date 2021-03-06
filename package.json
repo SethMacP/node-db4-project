@@ -1,0 +1,28 @@
+{
+  "name": "db4-project",
+  "version": "1.0.0",
+  "description": "This project",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "rollback": "npx knex migrate:rollback",
+    "latest": "npx knex migrate:latest",
+    "seed": "npx knex seed:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethMacP/node-db4-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SethMacP/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/SethMacP/node-db4-project#readme"
+}
